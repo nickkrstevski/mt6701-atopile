@@ -30,7 +30,7 @@ module MT6701:
 
     input_cap = new Capacitor
     input_cap.value = 100nF +/- 20%
-    input_cap.package = "0603"
+    input_cap.voltage = 16V +/- 6
     input_cap.power ~ power
 
     # Configure mode pin for I2C/SSI
