@@ -1,0 +1,15 @@
+component MT6701CT_STD:
+    # component MT6701CT-STD
+    footprint = "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+    lcsc_id = "C2856764"
+    mpn = "C2856764"
+    # pins
+    signal VDD ~ pin 1
+    signal MODE ~ pin 2
+    signal OUT ~ pin 3
+    signal GND ~ pin 4
+    signal PUSH ~ pin 5
+    signal A ~ pin 6
+    signal B ~ pin 7
+    signal Z ~ pin 8
+
