@@ -51,7 +51,7 @@ module MT6701:
     ssi.do ~ ic.A
     ssi.clk ~ ic.B
     ssi.csn ~ ic.Z
-    ssi.gnd ~ ic.gnd
+    ssi.gnd ~ power.gnd
 
 
 module MT6701_QEP from MT6701:
